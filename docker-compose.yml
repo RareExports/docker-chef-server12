@@ -1,0 +1,13 @@
+version: '3'
+services:
+  master:
+    build: .
+    ports:
+      - "80:80"
+    networks:
+      chef-server12:
+        aliases:
+          - chef-server
+
+networks:
+    chef-server12:
