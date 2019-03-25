@@ -12,3 +12,7 @@ This will get you up and running with some basic jobs and default config.
 	- `make build`
 	- `make run`
 4. Point your browser to http://localhost
+
+# Notes
+
+This repository is in the works. It's perfectly feasible that it may be split into environment based folders for local or cloud development. The goal is to add tools like Terraform into the mix for provisioning and automate a lot more of the process.
